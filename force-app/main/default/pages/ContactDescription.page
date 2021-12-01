@@ -1,0 +1,10 @@
+<apex:page showHeader="true" sidebar="false" standardController="Contact">
+    <apex:composition template="ContactDescriptionTemplate">
+        <apex:define name="leftSidebar">
+            <c:AccountComponent accountId="{!Contact.AccountId}"/>
+        </apex:define>
+        <apex:define name="contentArea">
+            <apex:detail/>
+        </apex:define>
+    </apex:composition>
+</apex:page>

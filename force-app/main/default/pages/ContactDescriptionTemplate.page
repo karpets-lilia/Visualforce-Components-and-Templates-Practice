@@ -1,0 +1,20 @@
+<apex:page showHeader="false" sidebar="false">
+    <apex:slds/>
+    <div class="slds-grid">
+        <div class="slds-col slds-box slds-size_2-of-12">
+            <h2>Left Sidebar</h2>
+            <apex:insert name="leftSidebar"/>
+        </div>
+        <div class="slds-col slds-box slds-size_8-of-12">
+            <h2>Content Area</h2>
+            <apex:insert name="contentArea"/>
+        </div>
+    </div>
+
+</apex:page>
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+<apex:component controller="AccountComponentController">
+    <apex:attribute name="accountId" description="user id" type="Id" required="true" assignTo="{!cUserId}"/>
+    Id : {!accountId} <br/>
+    Name : {!currentAccount.Name} <br/>
+    Account Number : {!currentAccount.AccountNumber} <br/>
+    Phone : {!currentAccount.Phone} <br/>
+    Billing Address : {!currentAccount.BillingStreet},
+                      {!currentAccount.BillingCity}
+                      {!currentAccount.BillingCountry} <br/>
+    Type : {!currentAccount.Type} <br/>
+</apex:component>
